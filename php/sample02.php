@@ -18,9 +18,9 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<? php
-print(1+1);
-?>
+<?php
+print(10*5);
+?>  
 </pre>
 </main>
 </body>
