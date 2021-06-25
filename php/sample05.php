@@ -18,13 +18,10 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php
-$today = new.DateTime();
-print(%today->format('G時i分s秒'))；
-?>
-<?php
-print(date('G時i分s秒'));
-?>
+<?php $sum = 100+1050+200+500+200; ?>
+<?php $tax = 1.1; ?>
+合計金額は<?php print($sum); ?>円です。
+税込み価格は<?php print($sum*$tax); ?>円です。
 </pre>
 </main>
 </body>    
