@@ -19,7 +19,11 @@
 <h2>Practice</h2>
 <pre>
 <?php 
-print(date('n/j(D)'));
+for ($i=1; $i<=1000; $i++):
+     $date= strtotime('+'.$i.'day');
+     print(date('n/j(D)',$date));
+     print"\n";
+endfor;
 ?>  
 </pre>
 </main>
